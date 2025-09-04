@@ -1,15 +1,15 @@
-🔥 Core SRE Metrics (a.k.a. The Four Golden Signals)
-1. Latency
+**🔥 Core SRE Metrics (a.k.a. The Four Golden Signals)**
+**1. Latency**
 
-Meaning: Request-ku response vara eduthukura time.
+**Meaning:** Request-ku response vara eduthukura time.
 
-Example: REST API /login ku 200ms average latency.
+**Example:** REST API /login ku 200ms average latency.
 
-Tanglish Notes: User button click pannadhum, server response vara time measure pannum.
+**Tanglish Notes:** User button click pannadhum, server response vara time measure pannum.
 
-Why Important: Latency adhiga irundha → user frustration + revenue loss.
+**Why Important:** Latency adhiga irundha → user frustration + revenue loss.
 
-2. Traffic
+**2. Traffic**
 
 Meaning: System handle panra total demand (requests/sec, QPS, TPS).
 
@@ -19,7 +19,7 @@ Tanglish Notes: App-ku ethana user simultaneous ha use panraanga-nu traffic kand
 
 Why Important: Scaling decisions traffic pattern base la pannuvom.
 
-3. Errors
+**3. Errors**
 
 Meaning: Failure rate (HTTP 5xx, timeouts, validation fails).
 
@@ -29,7 +29,7 @@ Tanglish Notes: App la bug irundha, illa DB down aana, error count spike aagum.
 
 Why Important: Reliability ku direct impact. SLA/SLO measure errors la base panidum.
 
-4. Saturation
+**4. Saturation**
 
 Meaning: Resource utilization (CPU, memory, DB connections, thread pools).
 
@@ -39,7 +39,7 @@ Tanglish Notes: Car la full seat occupied madhiri, infra la full load aana perfo
 
 Why Important: Saturation → latency & errors increase. Scaling ku trigger aagum.
 
-🔑 Additional SRE Metrics
+**🔑 Additional SRE Metrics**
 ✅ Availability
 
 % of successful requests (uptime).
@@ -74,7 +74,7 @@ Example: SLO 99.9% → 0.1% failure allowed.
 
 Tanglish Notes: Kudukkura budget madhiri, adhula tha mistake panlaam.
 
-⚡ Deep Infra Metrics
+**⚡ Deep Infra Metrics**
 
 CPU Utilization → system busy ah iruka?
 
