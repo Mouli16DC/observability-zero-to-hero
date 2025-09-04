@@ -90,6 +90,12 @@ GC Pause (JVM apps) → latency spikes.
 
 🎯 SRE Mindset
 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b9b9e617-ae40-4351-b5fa-a17c7175fc9c" />
+
+
+
+
 Only collect actionable metrics (noise avoid).
 
 Metrics → Alerts → Incident response → Postmortem → Reliability improve.
